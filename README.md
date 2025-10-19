@@ -1,7 +1,5 @@
 # SqlQueriesForm
 
-[TR]
-
 **Görsel Arayüz Kullanarak SQL Sorguları Oluşturma Uygulaması**
 
 [![C#](https://img.shields.io/badge/Language-C%23-blue.svg)](https://docs.microsoft.com/en-us/dotnet/csharp/)
@@ -10,6 +8,8 @@
 ---
 
 ## 💻 Proje Hakkında
+
+Bu uygulama, kullanıcıların tablolar, sütunlar ve koşullar gibi gerekli bileşenleri görsel bir Windows Forms arayüzüne girerek karmaşık SQL sorgularını (SELECT, INSERT, UPDATE, DELETE) zahmetsizce oluşturmalarını sağlar. Amaç, temel SQL DML (Data Manipulation Language) sorgularının yazım sürecini hızlandırmak ve basitleştirmektir.
 
 ---
 
@@ -22,23 +22,29 @@
 * **Geliştirme Dili:** Uygulama, **C#** programlama dili ile geliştirilmiştir.
 
 ---
+
+## 🚀 Kurulum ve Çalıştırma
+
+### Gereksinimler
+
+* **Visual Studio** (C# Windows Forms uygulamalarını destekleyen bir sürüm)
+* **.NET Framework** (Projenin gerektirdiği sürüm)
+
+### Adımlar
+
+1.  **Projeyi Klonlayın:** Terminalinizi kullanarak depo içeriğini yerel makinenize indirin.
+    ```bash
+    git clone [https://github.com/abdullahhaktan/creratingSqlQueriesForm.git](https://github.com/abdullahhaktan/creratingSqlQueriesForm.git)
+    ```
+2.  **Visual Studio'da Açın:** Visual Studio'yu başlatın ve indirilen klasör içindeki çözüm dosyasını (`.sln`) açın.
+3.  **Çalıştırın:** Çözümü derleyin ve uygulamayı çalıştırmak için Visual Studio'da **F5** tuşuna basın veya **Start (Başlat)** butonuna tıklayın.
+
+Uygulama, veritabanına bağlanmak yerine sadece sorgu oluşturduğu için ek bir SQL Server kurulumu gerektirmez.
+
 ---
 
-[EN]
+## 🖼️ Ekran Görüntüsü
 
-## 💻 About the Project
-
----
-
-## ✨ Core Features
-
-* **Automatic Query Generation:** Automatically generates basic SQL DML (Data Manipulation Language) queries such as **SELECT, INSERT, UPDATE,** and **DELETE** based on user inputs.
-* **Visual Field Entry:** Provides entry for query components like table names, column names, and conditions (WHERE clause) through an easy, visual interface.
-* **Ease of Use:** Offers functionalities to copy or export the generated queries with a single click.
-* **Form-Based Interface:** Utilizes a user-friendly Windows Form interface to streamline and simplify the SQL writing process.
-* **Development Language:** The application is developed using the **C#** programming language.
-
----
----
+Uygulamanın görsel arayüzünden bir örnek:
 
 <img width="422" height="221" alt="Ekran görüntüsü 2025-10-04 110815" src="https://github.com/user-attachments/assets/11d1ed95-fc48-4e3d-b0f5-b443373fd34b" />
